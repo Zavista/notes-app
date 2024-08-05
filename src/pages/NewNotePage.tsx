@@ -2,10 +2,10 @@ import NoteForm from "../components/NoteForm.tsx";
 
 const NewNotePage = () => {
   return (
-    <h1 className="mb-4">
-      <div className="">New Note</div>
+    <div className="mb-4">
+      <h1>New Note</h1>
       <NoteForm></NoteForm>
-    </h1>
+    </div>
   );
 };
 
